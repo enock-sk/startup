@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Service Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#">Web Development</a>
+              <a href="#" class="active">Mobile App Development</a>
+              <a href="#">IT Consulting</a>
+              <a href="#">Cloud Solutions</a>
+              <a href="#">UI/UX Design</a>
+            </div>
+
+            <h4>Building Apps That Transform Kenyan Businesses</h4>
+            <p>At Enosoftwares, we specialize in creating custom mobile apps that meet the unique needs of Kenyan enterprises, from startups to established firms. Our solutions are designed to drive engagement, streamline operations, and unlock new opportunities.</p>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpg" alt="Mobile App Development Service" class="img-fluid services-img">
+            <h3>Empowering Kenya with Innovative Mobile App Solutions</h3>
+            <p>
+              Our Mobile App Development service delivers robust, scalable, and user-friendly applications tailored to the Kenyan market. Whether it’s connecting farmers to buyers, enabling e-commerce for small businesses, or digitizing workflows, we bring your ideas to life with cutting-edge technology.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Cross-platform apps for Android and iOS using frameworks like Flutter and React Native.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Integration with local payment systems like M-Pesa for seamless transactions.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Real-time features like market updates and weather data for enhanced usability.</span></li>
+            </ul>
+            <p>
+              We work closely with our clients to understand their goals, ensuring every app we build is intuitive and impactful. From initial concept to deployment on app stores, our team handles it all, providing ongoing support to keep your app running smoothly.
+            </p>
+            <p>
+              In Kenya’s fast-growing digital landscape, mobile apps are a game-changer. Our expertise in local market dynamics, combined with global development standards, ensures your app stands out. Whether you’re in agriculture, retail, or services, Enosoftwares crafts solutions that resonate with Kenyan users and drive measurable results.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+  {% endblock %}
