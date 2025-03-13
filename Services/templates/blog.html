@@ -9,7 +9,7 @@
         <h1 class="mb-2 mb-lg-0">Blog</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{% url 'home' %}">Home</a></li>
             <li class="current">Blog</li>
           </ol>
         </nav>
@@ -32,11 +32,11 @@
                   <article>
 
                     <div class="post-img">
-                      <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                      <img src="{% static "assets/img/blog/blog-1.jpg" %}" alt="" class="img-fluid">
                     </div>
 
                     <h2 class="title">
-                      <a href="blog-details.html">The Future of IT in Kenya: Trends to Watch in 2025</a>
+                      <a href="{% url 'blog-details.html'%}">The Future of IT in Kenya: Trends to Watch in 2025</a>
                     </h2>
 
                     <div class="meta-top">
